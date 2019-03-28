@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <item
+            android:id="@+id/nav_newbooking"
+            android:icon="@drawable/ic_new_booking"
+            android:title="New Booking" />
+        <item
+            android:id="@+id/nav_modifybooking"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Modify Booking" />
+        <item
+            android:id="@+id/nav_bookinghistory"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Booking History" />
+        <item
+            android:id="@+id/nav_yourprofile"
+            android:icon="@drawable/ic_your_profile"
+            android:title="Your Profile" />
+
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help"
+                android:title="Help" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+
+
+</menu>
